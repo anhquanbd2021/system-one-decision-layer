@@ -28,8 +28,12 @@ ever bypasses a deterministic, unit-tested decision function.
 ```text
 npm test            # node --test "test/*.test.mjs"
 npm run simulate    # both use cases end-to-end + cost report
-npm run check       # both
+npm start           # interactive lab on http://127.0.0.1:5050
+npm run check       # tests + simulate
 ```
+
+Live deployment: <https://system-one-decision-layer.onrender.com>
+(Render free tier — cold start may take a minute.)
 
 ## Point it at a real model
 
