@@ -1,0 +1,16 @@
+{
+  "name": "system-one-decision-layer-demo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "System One decision models as the fast gate/router in an LLM agent pipeline — self-contained use cases.",
+  "scripts": {
+    "start": "node app/server.js",
+    "simulate": "node scripts/simulate.mjs",
+    "test": "node --test \"test/*.test.mjs\"",
+    "check": "npm test && npm run simulate"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
